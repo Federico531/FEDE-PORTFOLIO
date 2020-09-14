@@ -60,6 +60,10 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+   #about{
+      margin-top: -35em;
+      margin-left: 2.5em
+   }
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -70,6 +74,7 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
+   
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
@@ -214,7 +219,7 @@
 
    /* header social links */
    header .social {
-      margin: 18px 0 24px 0;
+      margin: 150px 0 24px 0;
       font-size: 24px;
       line-height: 36px;      
    }
@@ -229,6 +234,7 @@
    #about .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
+      margin-left: -0.5em;
       text-align: center;
       padding: 15px 20px;
    }
@@ -237,6 +243,9 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
+   #resume{
+      margin-left: -1em;
+   }
    #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -353,6 +362,18 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+   .title{
+      margin-top: -5em;
+      margin-left: -0.5em;
+      font-size: 2em;
+   }
+
+   .description{
+      color: white;
+      margin-top: -5em;
+      font-size: 90%;
+      width: 20em;
+   }
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -381,7 +402,9 @@
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
 
-   
+   .row .nine{
+      margin-top: 20em;
+   }
 
 }
 

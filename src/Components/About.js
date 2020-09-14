@@ -18,12 +18,12 @@ class About extends Component {
 
     return (
       <section id="about" >
-      <div className="row" style={{marginTop: '8em'}}>
+      <div className="row" >
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
          </div>
          <div className="nine columns main-col">
-            <h1 style={{color: "white"}}>Federico Marchetta</h1>
+            <h1 className="name">Federico Marchetta</h1>
 
             <p>{bio}</p>
             <div className="row">
