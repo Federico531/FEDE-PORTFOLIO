@@ -1,0 +1,119 @@
+{
+  "main": {
+    "name": "",
+    "description": "",
+    "image": "profilepic.png",
+    "bio": "Self taught web developer (UX/UI) with knowledge of Frontend development and some Backend. Adaptive, eager to bring value to your future projects and hungry for improvement.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "federicomarchetta@yahoo.com.ar",
+    "phone": "+54 9 11 3348-9674",
+    "github": "https://github.com/Federico531",
+    "project": "https://github.com/Federico531/FEDE-PORTFOLIO",
+    "address": {
+      "street": "Av. Pedro Goyena 1618",
+      "city": "Buenos Aires - ",
+      "state": "Argentina",
+      "zip": "PC 1424"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://pro2-bar.myportfolio.com/v1/assets/b36fa893-c4e0-489e-b81f-e5e547e4504a/53de7753-53ed-46a7-8045-b25828512c56_rw_1920.jpg?h=ffbb7950be80eb3202ea892203ac4598",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/federico.marchetta/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/federicomarchetta/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/federico.marchetta/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Federico531",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Web Development (Self Taught)",
+        "degree": "Frontend (and a little backend) software Developer",
+        "graduated": "November 2019 - Present",
+        "description": "Javascript, CSS, HTML, REACT, NODE.JS, Express, Mongo DB, GIT. (WEB APPS, CRUD, NO-SQL) "
+      },
+      {
+        "school": "Jose Hernandez Secondary School",
+        "degree": "Art Design and Communication Bachelor Degree",
+        "graduated": "Graduated in December 2011",
+        "description": "Digital Graphic Design, Visual Communication, color theory and Design structure"
+      }
+    ],
+    "work": [
+      {
+        "company": "WATASHI DESIGN",
+        "title": "FRONTEND DEVELOPMENT - FREELANCE",
+        "years": "June 2020 - July 2020 ",
+        "description": "Developing and mantaining It's webpage, made from scratch without using templates"
+      }
+    ],
+    "skills": [
+      {
+        "name": "",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "50%"
+      },
+      {
+        "name": "JAVA",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Early T-shirts App",
+        "category": "First App I made myself where you can add products and rank them by price, selling volume, etc.",
+        "image": "t-shirts.jpg",
+        "url": "https://github.com/Federico531/Balance-de-remeras"
+      },
+      {
+        "title": "Watashi Design",
+        "category": "This is a website I developed for and with Natalia Muñiz (Graphic Designer and Screen printer)",
+        "image": "watashi.jpg",
+        "url": "https://watashidesign.netlify.app/"
+      }
+    ]
+  }
+}

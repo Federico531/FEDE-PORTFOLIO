@@ -1,0 +1,35 @@
+CORREGIR EL PUSH QUE HICE A NATOPORFOLIO MASTER Y MANDARLO A FEDE PORTFOLIO OJO CON ESTO BOLUDO
+
+FEDE-PORTFOLIO
+
+TO DO:
+hacer responsive
+arreglar para que baje automatico hasta about exactamente  --INIT.JS LINEA 22 --> no pude encontrar
+
+
+https://portfolio.adobe.com/b36fa893-c4e0-489e-b81f-e5e547e4504a/editor/logos
+
+
+BOCETO PARA COPIAR
+https://portfolio.adobe.com/b36fa893-c4e0-489e-b81f-e5e547e4504a/editor/fede-2
+-ACTUALIZAR FONDO QUE ME DIJO NATI QUE TENIA UNO NUEVO
+-Extraer Datos de Linkedin y pegarlos en resumeData.json
+
+
+GUIA DE ARCHIVOS
+
+-DATOS/TEXTO QUE SE COMPLETAN EN LAPAGINA --> PUBLIC/resumeData.json
+-COMPONENTES QUE CONFORMAN LA PAGINA FINAL --> SRC/App.js 
+
+ESTILOS : 
+
+-ESTILOS DE LA PAGINA --> 
+
+PUBLIC/CSS/LAYOUT.CSS
+	-#about .profile-pic {} -> Tengo que subir una foto, a resumeData.json, Puedo usar URL?
+	-header {} --> IMAGEN DE FONDO --> AGREGUE UN <img/> pero tapa el nombre, ver que pasa 
+	ul#nav li.current a { color: #fe6928; } --> activa nav color
+	header .scrolldown a:hover { color: #0762f9; }--> BOTON SCROLL DOWN EN HEADER	
+	
+DEFAULT.CSS 
+	 nav{   --> Color de nav bar
