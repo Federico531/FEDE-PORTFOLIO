@@ -132,7 +132,7 @@ class Resume extends Component {
                 <img className="logo9" src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/b36fa893-c4e0-489e-b81f-e5e547e4504a/38a429cc-3233-4662-90a2-6e76fb19a3a6_rw_1920.jpg?h=0ac25148bbb59681bfd7de6a964bf7cf" />
                 <b className="boldtitle9">CSS</b>
                 <br />
-                <b className="skilltext">Life would be gray without it </b>
+                <b className="skilltext">Internet would be gray without it </b>
               </div>
             </div>
             {/* <div className="bars">

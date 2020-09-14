@@ -1317,7 +1317,6 @@ footer .social-links li:first-child {
    row-gap: 4em;
    column-gap: 6em;
    align-content: center;
-   
 }
 /* ASI SERIA EN RESPONSIVE */
 /* .logos {
@@ -1419,6 +1418,12 @@ footer .social-links li:first-child {
    text-align: center;
 }
 
-.hola{
-   margin-top: -10em
+.header{
+   margin-top: -40em;
+}
+
+.social {
+   margin-top: "-31.5";
+   margin-left: "-22em"; 
+   background-color: "black";
 }

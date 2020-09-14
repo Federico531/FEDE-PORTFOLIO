@@ -11,6 +11,16 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
 
+   .logos {
+      display: inline-grid;
+      grid-template-columns: 100%;
+      margin-left: 0%;
+      margin-top: -2%;
+      row-gap: 4em;
+      column-gap: 6em;
+      align-content: center;
+      
+   }
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
@@ -370,6 +380,8 @@
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
+
+   
 
 }
 
