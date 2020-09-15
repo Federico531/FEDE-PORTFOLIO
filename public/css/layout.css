@@ -1265,7 +1265,7 @@ footer .social-links li:first-child {
 .title {
    position: absolute;
    top: 205.5px;
-   left: 205px;
+   left: 203px;
    color: black;
    font-family: "absender";
    font-size: 76px;
@@ -1453,4 +1453,8 @@ footer .social-links li:first-child {
    padding: 15px;
    font-size: 30px;
    color: black;
+}
+
+.socialo a:hover{
+   color: dodgerblue;
 }

@@ -37,34 +37,6 @@ class Header extends Component {
                </div>
             </div>
 
-            <ul className="social" >
-               {/* <li>
-                  <a href="https://www.facebook.com/federico.marchetta/">
-                     <i className="fa fa-facebook"></i>
-                  </a>
-               </li> */}
-               <li>
-
-               </li>
-
-               {/* <li>
-                  <a href="https://www.instagram.com/federico.marchetta/">
-                     <i className="fa fa-instagram"></i>
-                  </a>
-               </li> */}
-               <li>
-
-                  <i className="fa fa-stack-overflow"></i>
-
-               </li>
-               <li>
-                  <a href="https://github.com/Federico531">
-                     <i className="fa fa-github">
-                     </i>
-                  </a>
-               </li>
-            </ul>
-
             <nav id="nav-wrap">
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
