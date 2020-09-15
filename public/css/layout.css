@@ -214,7 +214,7 @@ ul#nav li.current a {
 
 #about {
    background: #000524;
-   padding-top: 95px;
+   padding-top: 120px;
    padding-bottom: 110px;
    overflow: hidden;
 }
@@ -1420,17 +1420,13 @@ footer .social-links li:first-child {
 }
 
 .header{
-   margin-top: -40em;
+   margin-top: -610px;
 }
 
 
 
 .name { 
    color: white
-}
-
-#about{
-   margin-top: 3em;
 }
 
 .containera{
