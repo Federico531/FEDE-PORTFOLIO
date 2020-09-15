@@ -1249,7 +1249,7 @@ footer .social-links li:first-child {
    position: relative;
    text-align: center;
    color: white;
-   margin-top: -0.5em;
+   margin-top: -10px;
 }
 
 /* Bottom left text */
@@ -1268,7 +1268,7 @@ footer .social-links li:first-child {
    left: 15%;
    color: black;
    font-family: "absender";
-   font-size: 5em;
+   font-size: 76px;
 }
 
 /* .title {
@@ -1312,9 +1312,9 @@ footer .social-links li:first-child {
 .logos {
    display: inline-grid;
    grid-template-columns: 28% 28% 28%;
-   margin-left: -25%;
+   margin-left: -165px;
    margin-top: -2%;
-   row-gap: 4em;
+   row-gap: 70px;
    column-gap: 6em;
    align-content: center;
 }
@@ -1330,6 +1330,7 @@ footer .social-links li:first-child {
 
 .logo1 {
    margin-top: -3em;
+   
 }
 
 .logo2 {
@@ -1423,9 +1424,7 @@ footer .social-links li:first-child {
 }
 
 .social {
-   margin-top: "-31.5";
-   margin-left: "-22em"; 
-   background-color: "black";
+
 }
 
 .name { 
