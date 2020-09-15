@@ -21,15 +21,13 @@
       font-size: 15px;
       width: 300px;
    }
-
-   .containera .socialo{
+   .containera .socialo {
       width: 200px;
       top: 320px;
-      left: 145px ;
+      left: 145px;
       bottom: 0;
    }
-   
-   .socialo a{
+   .socialo a {
       padding: 15px;
       font-size: 30px;
    }
@@ -58,6 +56,25 @@
 @media only screen and (max-width: 900px) {
    /* header styles
    ------------------------------------------------------------------ */
+   header img {
+      margin-top: 100px;
+   }
+   .title {
+      font-size: 50px;
+      top: 100px;
+      left: 30px;
+   }
+   .containera .socialo {
+      width: 200px;
+      top: 150px;
+      left: 20px;
+      bottom: 0;
+   }
+   .description {
+      color: white;
+      top: 300px;
+      font-size: 21px
+   }
    header .banner {
       padding-bottom: 12px;
    }
@@ -81,8 +98,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about {
-      margin-top: -300px;
-      margin-left: -250px 
+      margin-top: -200px;
+      margin-left: 0
    }
    #about .profile-pic {
       display: none;
@@ -99,7 +116,7 @@
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume {
-      top: 100px 
+      top: 100px
    }
    #resume h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
@@ -143,6 +160,7 @@
 @media only screen and (max-width: 767px) {
    /* mobile navigation
    -------------------------------------------------------------------- */
+   
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -428,26 +446,22 @@
       font-size: 15px;
       width: 300px;
    }
-
-   .containera .socialo{
+   .containera .socialo {
       width: 200px;
       top: 90px;
-      left: -5px ;
+      left: -5px;
       bottom: 0;
    }
-   
-   .socialo a{
+   .socialo a {
       padding: 15px;
       font-size: 20px;
    }
-
-   #about{
-     margin-left: 10px;
-     margin-top: -450px;
-     margin-bottom: -100px;
-     width: 350px;
-      }
-
+   #about {
+      margin-left: 10px;
+      margin-top: -450px;
+      margin-bottom: -100px;
+      width: 350px;
+   }
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav {
@@ -483,7 +497,5 @@
    footer .social-links li {
       margin-left: 14px;
    }
-   .row .nine {
-  
-   }
+   .row .nine {}
 }
