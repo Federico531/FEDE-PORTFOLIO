@@ -14,35 +14,48 @@ class Header extends Component {
       return (
          <header className="container" id="home">
             <div className="header" >
-               <img className="background"src="https://pro2-bar.myportfolio.com/v1/assets/b36fa893-c4e0-489e-b81f-e5e547e4504a/57e5f94e-d50e-4957-b752-bb4ad01c9aa9_rw_1920.jpg?h=9238e90945bdf62b043a2bbb0dd0bce7" />
+               <div className="containera">
+                  <img src="https://pro2-bar.myportfolio.com/v1/assets/b36fa893-c4e0-489e-b81f-e5e547e4504a/57e5f94e-d50e-4957-b752-bb4ad01c9aa9_rw_1920.jpg?h=9238e90945bdf62b043a2bbb0dd0bce7" />
 
-               {/* PASAR DATA A resumeData.json */}
-               <div className="title">BONJOUR!</div>
-               {/* <div className="title">Federico Marchetta</div> */}
-               <div className="description">I'm Federico Marchetta, Frontend Developer. Passionate about design and technology  </div>
+                  {/* PASAR DATA A resumeData.json */}
+                  <div className="title">BONJOUR!</div>
+                  {/* <div className="title">Federico Marchetta</div> */}
+                  <div className="description">I'm Federico Marchetta, Frontend Developer. Passionate about design and technology  </div>
+                  <div className="socialo">
+
+                     <a href="https://www.linkedin.com/in/federicomarchetta/">
+                        <i className="fa fa-linkedin"></i>
+                     </a>
+                     <a href="https://stackoverflow.com/users/13444685/federico-531">
+                        <i className="fa fa-stack-overflow"></i>
+                     </a>
+                     <a href="https://github.com/Federico531">
+                     <i className="fa fa-github"></i>                        
+                     </a>
+
+                  </div>
+               </div>
             </div>
 
-            <ul className="social" style={{ marginTop: "-31.5em", marginLeft: "-22em", backgroundColor: "black" }}>
+            <ul className="social" >
                {/* <li>
                   <a href="https://www.facebook.com/federico.marchetta/">
                      <i className="fa fa-facebook"></i>
                   </a>
                </li> */}
                <li>
-                  <a href="https://www.linkedin.com/in/federicomarchetta/">
-                     <i className="fa fa-linkedin"></i>
-                  </a>
+
                </li>
-              
+
                {/* <li>
                   <a href="https://www.instagram.com/federico.marchetta/">
                      <i className="fa fa-instagram"></i>
                   </a>
                </li> */}
                <li>
-                  <a href="https://stackoverflow.com/users/13444685/federico-531">
-                     <i className="fa fa-stack-overflow"></i>
-                  </a>
+
+                  <i className="fa fa-stack-overflow"></i>
+
                </li>
                <li>
                   <a href="https://github.com/Federico531">

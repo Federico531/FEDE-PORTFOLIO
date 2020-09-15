@@ -1264,8 +1264,8 @@ footer .social-links li:first-child {
 
 .title {
    position: absolute;
-   top: 40%;
-   left: 15%;
+   top: 205.5px;
+   left: 205px;
    color: black;
    font-family: "absender";
    font-size: 76px;
@@ -1286,10 +1286,10 @@ footer .social-links li:first-child {
 
 .description {
    position: absolute;
-   top: 50%;
-   left: 12.9%;
+   top: 272px;
+   left: 173px;
    color: black;
-   width: 25%
+   width: 340px;
 }
 
 /* Bottom right text */
@@ -1423,9 +1423,7 @@ footer .social-links li:first-child {
    margin-top: -40em;
 }
 
-.social {
 
-}
 
 .name { 
    color: white
@@ -1433,4 +1431,26 @@ footer .social-links li:first-child {
 
 #about{
    margin-top: 3em;
+}
+
+.containera{
+   position: relative;
+}
+
+.containera img {
+   display:block
+}
+
+.containera .socialo{
+   position: absolute;
+   top: 370px;
+   left: 260px;
+   bottom: 0;
+   color:red;
+}
+
+.socialo a{
+   padding: 15px;
+   font-size: 30px;
+   color: black;
 }
