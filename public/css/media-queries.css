@@ -160,7 +160,6 @@
 @media only screen and (max-width: 767px) {
    /* mobile navigation
    -------------------------------------------------------------------- */
-   
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -434,6 +433,9 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+   header {
+      top: -147px;
+   }
    .title {
       top: 50px;
       left: 40px;
@@ -441,7 +443,7 @@
    }
    .description {
       color: white;
-      top: 210px;
+      top: 220px;
       left: 35px;
       font-size: 15px;
       width: 300px;
@@ -458,7 +460,7 @@
    }
    #about {
       margin-left: 10px;
-      margin-top: -450px;
+      margin-top: -530px;
       margin-bottom: -100px;
       width: 350px;
    }
