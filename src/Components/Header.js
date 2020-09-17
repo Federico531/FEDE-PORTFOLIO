@@ -14,8 +14,6 @@ class Header extends Component {
       return (
          <header className="container" id="home">
             <div className="header" >
-               <div className="containera">
-                  <img src="https://pro2-bar.myportfolio.com/v1/assets/b36fa893-c4e0-489e-b81f-e5e547e4504a/57e5f94e-d50e-4957-b752-bb4ad01c9aa9_rw_1920.jpg?h=9238e90945bdf62b043a2bbb0dd0bce7" />
 
                   {/* PASAR DATA A resumeData.json */}
                   <div className="title">BONJOUR!</div>
@@ -34,7 +32,6 @@ class Header extends Component {
                      </a>
 
                   </div>
-               </div>
             </div>
 
             <nav id="nav-wrap">

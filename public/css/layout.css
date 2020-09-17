@@ -116,6 +116,7 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
+   color: gray;
    display: block;
    height: 42px;
    width: 42px;
@@ -213,7 +214,7 @@ ul#nav li.current a {
 
 #about {
    background: #000524;
-   padding-top: 120px;
+   padding-top: 30px;
    padding-bottom: 110px;
    overflow: hidden;
 }
@@ -1248,7 +1249,6 @@ footer .social-links li:first-child {
    position: relative;
    text-align: center;
    color: white;
-   margin-top: -10px;
 }
 
 /* Bottom left text */
@@ -1263,7 +1263,7 @@ footer .social-links li:first-child {
 
 .title {
    position: absolute;
-   top: 205.5px;
+   top: 260px;
    left: 203px;
    color: black;
    font-family: "absender";
@@ -1285,7 +1285,7 @@ footer .social-links li:first-child {
 
 .description {
    position: absolute;
-   top: 272px;
+   top: 320px;
    left: 173px;
    color: black;
    width: 340px;
@@ -1317,7 +1317,9 @@ footer .social-links li:first-child {
    column-gap: 6em;
    align-content: center;
 }
+
 /* ASI SERIA EN RESPONSIVE */
+
 /* .logos {
    display: inline-grid;
    grid-template-columns: 33.3% 33.3% 33.3%;
@@ -1329,7 +1331,6 @@ footer .social-links li:first-child {
 
 .logo1 {
    margin-top: -3em;
-   
 }
 
 .logo2 {
@@ -1418,38 +1419,36 @@ footer .social-links li:first-child {
    text-align: center;
 }
 
-.header{
-   margin-top: -610px;
+header {
+   position: relative;
+   height: auto;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
 }
 
-
-
-.name { 
+.name {
    color: white
 }
 
-.containera{
-   position: relative;
-}
-
-.containera img {
-   display:block
-}
-
-.containera .socialo{
+.socialo {
    position: absolute;
-   top: 370px;
+   top: 410px;
    left: 260px;
    bottom: 0;
-   color:red;
+   color: white;
 }
 
-.socialo a{
+.socialo a {
    padding: 15px;
    font-size: 30px;
    color: black;
 }
 
-.socialo a:hover{
+.socialo a:hover {
    color: dodgerblue;
 }
