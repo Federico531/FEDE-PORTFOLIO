@@ -455,14 +455,14 @@
 
    .title {
       top: 40%;
-      left: 40px;
+      left: 10vw;
       font-size: 80px;
       align-content: center;
    }
    .description {
       color: black;
       top: 50%;
-      left: 10%;
+      left: 10vw;
       font-size: 15px;
       width: 300px;
    }
@@ -471,13 +471,13 @@
    }
    .logos {
 
-      row-gap: 8em;
+      row-gap: 40px;
 
    }
    .socialo {
       width: 200px;
       top: 68%;
-      left: 25%;
+      left: 25vw;
       bottom: 0;
    }
    #about {
