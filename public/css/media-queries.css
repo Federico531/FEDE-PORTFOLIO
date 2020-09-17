@@ -446,9 +446,13 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+   body{
+   width: auto
+   }
    header {
       top: -50px;
    }
+
    .title {
       top: 40%;
       left: 40px;
@@ -472,7 +476,7 @@
       bottom: 0;
    }
    #about {
-      width: 350px;
+      width: auto;
    }
    /* mobile navigation
    -------------------------------------------------------------------- */
