@@ -469,6 +469,11 @@
    img {
       object-fit: cover;
    }
+   .logos {
+
+      row-gap: 8em;
+
+   }
    .socialo {
       width: 200px;
       top: 68%;
